@@ -2,6 +2,10 @@ import _ from 'lodash';
 
 import jsonPlaceholder from '../apis/jsonPlaceholder';
 
+// we no longer had to create action creators that always returned in action object instead with redux thunk.
+// We could also optionally return a function if we return a function.
+// It would be automatically called with the dispatch and get state arguments 
+// and that essentially gave us total control over changing or getting information out of our redux store.
 export const fetchPostsAndUsers = () => async (dispatch, getState) => {
     await dispatch(fetchPosts());
 
