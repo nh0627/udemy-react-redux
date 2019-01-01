@@ -1,22 +1,16 @@
 {
   "streams": [
     {
-      "title": "Test Sample Updated by a PATCH request",
-      "description": "Test sample1",
+      "title": "Test1",
+      "description": "TT",
       "userId": "108310572151002793808",
       "id": 1
     },
     {
-      "title": "Programmatic Navigation",
-      "description": "Test Test",
+      "title": "Hi there!?",
+      "description": "Hi Hi",
       "userId": "108310572151002793808",
       "id": 2
-    },
-    {
-      "title": "Streaming Components Reused?",
-      "description": "Test",
-      "userId": "108310572151002793808",
-      "id": 3
     }
   ]
 }
